@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "C:\\Users\\Rakib\\Desktop\\E-Commerce-App\\winston\\error\\.f0a6fb8451983676c61e1be9eff422f760922e8d-audit.json",
+    "files": [
+        {
+            "date": 1741832133750,
+            "name": "C:\\Users\\Rakib\\Desktop\\E-Commerce-App\\winston\\error\\13-03-2025-08-error.log",
+            "hash": "87311d48400a6b00f884b47b5958817f30051d55db5b1f9444440a4e5ce65d36"
+        },
+        {
+            "date": 1741841952666,
+            "name": "C:\\Users\\Rakib\\Desktop\\E-Commerce-App\\winston\\error\\13-03-2025-10-error.log",
+            "hash": "d0f84b04a8986648b68ace20f898d5d07254d1794bde3beada4edc389fd04213"
+        },
+        {
+            "date": 1741842003488,
+            "name": "C:\\Users\\Rakib\\Desktop\\E-Commerce-App\\winston\\error\\13-03-2025-11-error.log",
+            "hash": "25e3f1813b380312cead754995d0414af14bd08395b84f67eb01daf6fee72db9"
+        }
+    ],
+    "hashType": "sha256"
+}
