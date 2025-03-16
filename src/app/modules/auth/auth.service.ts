@@ -20,7 +20,7 @@ import { verifyToken } from '../../../utils/verifyToken';
 import { createToken } from '../../../utils/createToken';
 
 //login
-const loginUserFromDB = async (payload: ILoginData) => {
+const login = async (payload: ILoginData) => {
   const { email, password } = payload;
   const isExistUser = await User.findOne({ email }).select('+password');
   if (!isExistUser) {
@@ -66,15 +66,24 @@ const loginUserFromDB = async (payload: ILoginData) => {
   ) {
     throw new AppError(StatusCodes.BAD_REQUEST, 'Password is incorrect!');
   }
-
+  const jwtData = {
+    id: isExistUser._id,
+    role: isExistUser.role,
+    email: isExistUser.email,
+  };
   //create token
-  const createToken = jwtHelper.createToken(
-    { id: isExistUser._id, role: isExistUser.role, email: isExistUser.email },
+  const accessToken = jwtHelper.createToken(
+    jwtData,
     config.jwt.jwt_secret as Secret,
     config.jwt.jwt_expire_in as string,
   );
+  const refreshToken = jwtHelper.createToken(
+    jwtData,
+    config.jwt.jwt_refresh_secret as string,
+    config.jwt.jwt_refresh_expire_in as string,
+  );
 
-  return { createToken };
+  return { accessToken, refreshToken };
 };
 
 //forget password
@@ -389,14 +398,58 @@ const changePasswordToDB = async (
   });
   return result;
 };
+// Refresh token
+const refreshToken = async (token: string) => {
+  if (!token) {
+    throw new AppError(StatusCodes.BAD_REQUEST, 'Token not found');
+  }
 
+  const decoded = verifyToken(
+    token,
+    config.jwt.jwt_refresh_expire_in as string,
+  );
+
+  const { id } = decoded;
+
+  const activeUser = await User.findById(id);
+  if (!activeUser) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'User not found');
+  }
+
+  if (activeUser.status !== 'active') {
+    throw new AppError(StatusCodes.FORBIDDEN, 'User account is inactive');
+  }
+  if (!activeUser.verified) {
+    throw new AppError(StatusCodes.FORBIDDEN, 'User account is not verified');
+  }
+  if (activeUser.isDeleted) {
+    throw new AppError(StatusCodes.FORBIDDEN, 'User account is deleted');
+  }
+
+  const jwtPayload = {
+    id: activeUser?._id?.toString() as string,
+    role: activeUser?.role,
+    email: activeUser.email,
+  };
+
+  const accessToken = jwtHelper.createToken(
+    jwtPayload,
+    config.jwt.jwt_secret as Secret,
+    config.jwt.jwt_expire_in as string,
+  );
+
+  return {
+    accessToken,
+  };
+};
 export const AuthService = {
   verifyEmailToDB,
-  loginUserFromDB,
+  login,
   forgetPasswordToDB,
   resetPasswordToDB,
   changePasswordToDB,
   forgetPasswordByUrlToDB,
   resetPasswordByUrl,
   resendOtpFromDb,
+  refreshToken,
 };

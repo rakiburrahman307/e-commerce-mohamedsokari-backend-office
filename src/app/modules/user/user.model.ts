@@ -6,6 +6,7 @@ import { USER_ROLES } from '../../../enums/user';
 import AppError from '../../../errors/AppError';
 import { IUser, UserModel } from './user.interface';
 
+
 const userSchema = new Schema<IUser, UserModel>(
   {
     name: {
@@ -17,9 +18,10 @@ const userSchema = new Schema<IUser, UserModel>(
       enum: Object.values(USER_ROLES),
       default: USER_ROLES.USER,
     },
+    contact: { type: String, required: true },
     email: {
       type: String,
-      required: true,
+      required: false,
       unique: true,
       lowercase: true,
     },
@@ -28,6 +30,10 @@ const userSchema = new Schema<IUser, UserModel>(
       required: true,
       select: false,
       minlength: 8,
+    },
+    location: {
+      type: String,
+      default: '',
     },
     image: {
       type: String,
@@ -42,6 +48,7 @@ const userSchema = new Schema<IUser, UserModel>(
       type: Boolean,
       default: false,
     },
+  
     isDeleted: {
       type: Boolean,
       default: false,

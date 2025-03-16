@@ -1,0 +1,76 @@
+Sat Mar 15 2025 15:1:18 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:1:20 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:1:21 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:1:25 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:1:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:1:31 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:1:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:1:37 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:2:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:3:2 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:3:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:3:8 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:3:11 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:3:15 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:4:0 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:7:20 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:7:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:7:25 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:7:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:7:32 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:7:35 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:7:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:7:37 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:7:39 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:7:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:7:44 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:8:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:8:19 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:10:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:10:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:10:45 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:11:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:12:2 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:15:6 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products?searchTerm=dhaka&sort=price 200 - 651.435 ms
+Sat Mar 15 2025 15:15:45 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products?category=Sports%20Equipment 200 - 595.408 ms
+Sat Mar 15 2025 15:15:55 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products?category=Sports%20Equipment%20zcf 200 - 1179.589 ms
+Sat Mar 15 2025 15:16:3 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products?category=Sports%20Equipment 200 - 636.404 ms
+Sat Mar 15 2025 15:16:10 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products?category=Sports%20Equipmeint 200 - 1158.722 ms
+Sat Mar 15 2025 15:16:18 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products?category=Sports%20Equipment 200 - 635.126 ms
+Sat Mar 15 2025 15:19:39 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:19:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:19:45 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:20:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:20:18 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:27:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:27:32 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:27:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:27:37 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:27:39 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:27:42 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:27:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:27:59 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:42:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:42:50 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:42:53 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:43:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:43:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:43:11 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:43:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:43:16 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:43:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:43:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:43:30 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:43:32 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:43:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:43:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:43:39 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:43:47 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:43:50 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:44:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:44:52 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:44:54 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Mar 15 2025 15:44:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sat Mar 15 2025 15:46:0 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 310.902 ms
+Sat Mar 15 2025 15:46:14 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 300.158 ms
+Sat Mar 15 2025 15:46:17 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 325.892 ms

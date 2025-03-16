@@ -1,5 +1,3 @@
-# Student ID 2393 => variant 2 => SET-2
-
 # Bike Shop Management API
 
 ## Welcome! 👋

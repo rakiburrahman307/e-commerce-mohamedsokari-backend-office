@@ -1,0 +1,4 @@
+Sat Mar 15 2025 14:19:13 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/products 404 - 1.954 ms
+Sat Mar 15 2025 14:19:18 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/products 401 - 3.940 ms
+Sat Mar 15 2025 14:19:30 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/products 400 - 5.330 ms
+Sat Mar 15 2025 14:20:3 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/products 400 - 1.286 ms

@@ -1,11 +1,10 @@
-import { Request, Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
 import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
 import { AuthService } from './auth.service';
-import { JwtPayload } from 'jsonwebtoken';
+import config from '../../../config';
 
-const verifyEmail = catchAsync(async (req: Request, res: Response) => {
+const verifyEmail = catchAsync(async (req, res) => {
   const { ...verifyData } = req.body;
   const result = await AuthService.verifyEmailToDB(verifyData);
 
@@ -20,21 +19,28 @@ const verifyEmail = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
-const loginUser = catchAsync(async (req: Request, res: Response) => {
+const loginUser = catchAsync(async (req, res) => {
+  const isProduction = config.node_env === 'production';
   const { ...loginData } = req.body;
-  const result = await AuthService.loginUserFromDB(loginData);
+  const result = await AuthService.login(loginData);
+  res.cookie('refreshToken', result.refreshToken, {
+    secure: isProduction,
+    httpOnly: true,
+    sameSite: isProduction ? 'none' : 'lax',
+    maxAge: 1000 * 60 * 60 * 24 * 365, 
+  });
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
     message: 'User logged in successfully.',
     data: {
-      token: result.createToken,
+      accessToken: result.accessToken,
     },
   });
 });
 
-const forgetPassword = catchAsync(async (req: Request, res: Response) => {
+const forgetPassword = catchAsync(async (req, res) => {
   const email = req.body.email;
   const result = await AuthService.forgetPasswordToDB(email);
 
@@ -60,7 +66,7 @@ const forgetPasswordByUrl = catchAsync(async (req, res) => {
   });
 });
 
-const resetPasswordByUrl = catchAsync(async (req: Request, res: Response) => {
+const resetPasswordByUrl = catchAsync(async (req, res) => {
   let token = req?.headers?.authorization?.split(' ')[1];
   const { ...resetData } = req.body;
 
@@ -73,7 +79,7 @@ const resetPasswordByUrl = catchAsync(async (req: Request, res: Response) => {
     data: result,
   });
 });
-const resetPassword = catchAsync(async (req: Request, res: Response) => {
+const resetPassword = catchAsync(async (req, res) => {
   const token: any = req.headers.resettoken;
   const { ...resetData } = req.body;
   const result = await AuthService.resetPasswordToDB(token!, resetData);
@@ -86,7 +92,7 @@ const resetPassword = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
-const changePassword = catchAsync(async (req: Request, res: Response) => {
+const changePassword = catchAsync(async (req, res) => {
   const user = req.user;
   const { ...passwordData } = req.body;
   const result = await AuthService.changePasswordToDB(user, passwordData);
@@ -109,6 +115,18 @@ const resendOtp = catchAsync(async (req, res) => {
     message: 'OTP sent successfully again',
   });
 });
+// refresh token
+const refreshToken = catchAsync(async (req, res) => {
+  const refreshToken = req.headers?.refreshtoken as string;
+  const result = await AuthService.refreshToken(refreshToken);
+
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'Access token retrieved successfully',
+    data: result,
+  });
+});
 export const AuthController = {
   verifyEmail,
   loginUser,
@@ -118,4 +136,5 @@ export const AuthController = {
   forgetPasswordByUrl,
   resetPasswordByUrl,
   resendOtp,
+  refreshToken,
 };

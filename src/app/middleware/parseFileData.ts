@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from 'express';
 import { getSingleFilePath } from '../../shared/getFilePath';
 
-const parseFileData = (req: Request, res: Response, next: NextFunction) => {
+const parseSingleFileData = (req: Request, res: Response, next: NextFunction) => {
   try {
     const image = getSingleFilePath(req.files, 'image');
     if (req.body.data) {
@@ -16,4 +16,4 @@ const parseFileData = (req: Request, res: Response, next: NextFunction) => {
   }
 };
 
-export default parseFileData;
+export default parseSingleFileData;

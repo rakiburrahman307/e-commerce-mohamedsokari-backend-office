@@ -1,0 +1,11 @@
+Sat Mar 15 2025 12:18:47 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/products 404 - 2.590 ms
+Sat Mar 15 2025 12:21:41 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/products/create 400 - 326.405 ms
+Sat Mar 15 2025 12:33:44 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/products/create 400 - 318.078 ms
+Sat Mar 15 2025 12:34:16 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/products/create 400 - 286.153 ms
+Sat Mar 15 2025 12:38:6 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/products/create 400 - 287.000 ms
+Sat Mar 15 2025 12:39:37 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/products/create 400 - 300.745 ms
+Sat Mar 15 2025 12:40:24 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/products/create 400 - 277.731 ms
+Sat Mar 15 2025 12:41:23 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/products/create 400 - 427.490 ms
+Sat Mar 15 2025 12:42:24 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/products/create 400 - 290.183 ms
+Sat Mar 15 2025 12:45:45 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/products/create 400 - 339.889 ms
+Sat Mar 15 2025 12:48:55 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/products/create 400 - 420.918 ms

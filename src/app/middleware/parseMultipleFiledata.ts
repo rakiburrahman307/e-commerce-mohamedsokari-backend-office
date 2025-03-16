@@ -1,14 +1,18 @@
 import { Request, Response, NextFunction } from 'express';
 import { getMultipleFilesPath } from '../../shared/getFilePath';
 
-const parseFileData = (req: Request, res: Response, next: NextFunction) => {
+const parseMultipleFiledata = (
+  req: Request,
+  res: Response,
+  next: NextFunction,
+) => {
   try {
-    const image = getMultipleFilesPath(req.files, 'image');
+    const images = getMultipleFilesPath(req.files, 'image');
     if (req.body.data) {
       const data = JSON.parse(req.body.data);
-      req.body = { image, ...data };
+      req.body = { images, ...data };
     } else {
-      req.body = { image };
+      req.body = { images };
     }
     next();
   } catch (error) {
@@ -16,4 +20,4 @@ const parseFileData = (req: Request, res: Response, next: NextFunction) => {
   }
 };
 
-export default parseFileData;
+export default parseMultipleFiledata;

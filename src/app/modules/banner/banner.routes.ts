@@ -1,8 +1,9 @@
 import express from "express";
-import auth from "../../middlewares/auth";
 import { USER_ROLES } from "../../../enums/user";
 import { BannerController } from "./banner.controller";
-import fileUploadHandler from "../../middlewares/fileUploaderHandler";
+import auth from "../../middleware/auth";
+import fileUploadHandler from "../../middleware/fileUploadHandler";
+
 const router = express.Router();
 
 router.route('/')

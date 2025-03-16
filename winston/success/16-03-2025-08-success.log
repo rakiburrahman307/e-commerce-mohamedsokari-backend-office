@@ -1,0 +1,124 @@
+Sun Mar 16 2025 8:21:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:21:37 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:21:40 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:22:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:22:4 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:22:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:22:17 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:22:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:22:38 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:22:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:22:47 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:23:43 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products?searchTerm=dhaka&sort=price&category=Sports%20Equipment 200 - 544.415 ms
+Sun Mar 16 2025 8:23:49 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products 200 - 1082.731 ms
+Sun Mar 16 2025 8:24:9 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/cart 200 - 1125.573 ms
+Sun Mar 16 2025 8:25:8 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/cart 200 - 1097.159 ms
+Sun Mar 16 2025 8:25:13 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/cart/ 200 - 809.158 ms
+Sun Mar 16 2025 8:25:37 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/cart 200 - 864.158 ms
+Sun Mar 16 2025 8:26:18 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/cart 200 - 805.706 ms
+Sun Mar 16 2025 8:26:27 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products 200 - 538.855 ms
+Sun Mar 16 2025 8:26:40 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/cart 200 - 1096.717 ms
+Sun Mar 16 2025 8:26:45 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/cart 200 - 817.771 ms
+Sun Mar 16 2025 8:28:46 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:28:50 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:28:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:28:54 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:28:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:28:58 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:29:4 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/cart 200 - 1095.528 ms
+Sun Mar 16 2025 8:29:18 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/cart 200 - 1102.845 ms
+Sun Mar 16 2025 8:29:25 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/cart 200 - 816.978 ms
+Sun Mar 16 2025 8:31:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:31:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:31:11 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:31:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:31:16 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:31:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:31:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:31:27 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:31:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:31:30 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:31:32 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:31:34 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:32:10 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:32:13 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:32:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:32:22 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:32:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:32:26 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:33:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:33:38 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:33:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:33:43 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:33:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:33:46 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:33:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:33:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:33:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:33:55 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:33:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:34:2 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:34:3 [SERVER-NAME] info: 10.0.70.126 - DELETE /api/v1/cart/67d56a35beaf9940aa349b27 200 - 949.856 ms
+Sun Mar 16 2025 8:34:9 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/cart 200 - 808.299 ms
+Sun Mar 16 2025 8:37:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:37:32 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:37:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:37:38 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:37:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:37:54 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:38:18 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/cart 200 - 1184.701 ms
+Sun Mar 16 2025 8:38:23 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/cart 200 - 864.691 ms
+Sun Mar 16 2025 8:38:59 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/cart 200 - 1163.701 ms
+Sun Mar 16 2025 8:39:40 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/cart 200 - 1152.779 ms
+Sun Mar 16 2025 8:39:49 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/cart 200 - 852.928 ms
+Sun Mar 16 2025 8:39:56 [SERVER-NAME] info: 10.0.70.126 - DELETE /api/v1/cart/67d56a35beaf9940aa349b27 200 - 883.225 ms
+Sun Mar 16 2025 8:40:4 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/cart 200 - 857.331 ms
+Sun Mar 16 2025 8:42:21 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:42:24 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:43:20 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/cart 200 - 1132.601 ms
+Sun Mar 16 2025 8:43:28 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/cart 200 - 1104.406 ms
+Sun Mar 16 2025 8:43:33 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/cart 200 - 826.010 ms
+Sun Mar 16 2025 8:43:40 [SERVER-NAME] info: 10.0.70.126 - DELETE /api/v1/cart/67d56a35beaf9940aa349b27 200 - 1103.819 ms
+Sun Mar 16 2025 8:43:45 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/cart 200 - 819.601 ms
+Sun Mar 16 2025 8:44:26 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/cart 200 - 1607.781 ms
+Sun Mar 16 2025 8:44:30 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/cart 200 - 816.317 ms
+Sun Mar 16 2025 8:44:42 [SERVER-NAME] info: 10.0.70.126 - DELETE /api/v1/cart/67d5293ee09d535f148a3e34 200 - 1101.329 ms
+Sun Mar 16 2025 8:44:48 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/cart 200 - 814.638 ms
+Sun Mar 16 2025 8:45:2 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/cart 200 - 1091.635 ms
+Sun Mar 16 2025 8:45:7 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/cart 200 - 1088.276 ms
+Sun Mar 16 2025 8:46:21 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/users/profile 200 - 561.716 ms
+Sun Mar 16 2025 8:47:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:47:30 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:47:32 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:47:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:47:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:47:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:47:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:47:46 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:47:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:47:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:47:53 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:47:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:47:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:48:0 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:48:3 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:48:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:48:27 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:48:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:48:32 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:48:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:48:37 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:48:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:48:51 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:48:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:49:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:52:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:52:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:52:54 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:52:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:53:0 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:53:3 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:53:6 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 16 2025 8:53:30 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/cart 200 - 1150.707 ms
+Sun Mar 16 2025 8:53:38 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/cart 200 - 1162.054 ms
+Sun Mar 16 2025 8:53:44 [SERVER-NAME] info: 10.0.70.126 - DELETE /api/v1/cart/67d5293ee09d535f148a3e34 200 - 1149.307 ms
