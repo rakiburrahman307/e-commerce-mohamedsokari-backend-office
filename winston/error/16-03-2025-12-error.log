@@ -1,0 +1,4 @@
+Sun Mar 16 2025 12:21:56 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/chat 401 - 6.055 ms
+Sun Mar 16 2025 12:23:0 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/messages 400 - 2.261 ms
+Sun Mar 16 2025 12:24:16 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/messages/upload-image 404 - 0.639 ms
+Sun Mar 16 2025 12:26:1 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/messages/upload-image 400 - 1.111 ms

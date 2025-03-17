@@ -1,8 +1,7 @@
-import { Model, Types } from 'mongoose';
+import { Types } from 'mongoose';
 
-export type IChat = {
-    participants: [Types.ObjectId];
-    status: Boolean;
+export interface IChat {
+  participants: Types.ObjectId[]; 
+  status: 'accepted' | 'blocked'; 
+
 }
-
-export type ChatModel = Model<IChat, Record<string, unknown>>;

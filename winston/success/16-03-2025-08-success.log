@@ -122,3 +122,5 @@ Sun Mar 16 2025 8:53:6 [SERVER-NAME] info: [33m♻️  Application listening on
 Sun Mar 16 2025 8:53:30 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/cart 200 - 1150.707 ms
 Sun Mar 16 2025 8:53:38 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/cart 200 - 1162.054 ms
 Sun Mar 16 2025 8:53:44 [SERVER-NAME] info: 10.0.70.126 - DELETE /api/v1/cart/67d5293ee09d535f148a3e34 200 - 1149.307 ms
+Sun Mar 16 2025 8:54:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 16 2025 8:54:56 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
