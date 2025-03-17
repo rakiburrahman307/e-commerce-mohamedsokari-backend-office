@@ -1,0 +1,6 @@
+Sun Mar 16 2025 14:6:34 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/messages/upload-image 400 - 22.459 ms
+Sun Mar 16 2025 14:13:18 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/messages 400 - 3.986 ms
+Sun Mar 16 2025 14:13:20 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/messages 400 - 0.988 ms
+Sun Mar 16 2025 14:13:32 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/messages/67d291f9dcc3b5cec69d446a 404 - 0.546 ms
+Sun Mar 16 2025 14:13:41 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/messages/67d685793b22980e20486bd1 404 - 0.890 ms
+Sun Mar 16 2025 14:14:23 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/messages?67d685793b22980e20486bd1 400 - 0.923 ms

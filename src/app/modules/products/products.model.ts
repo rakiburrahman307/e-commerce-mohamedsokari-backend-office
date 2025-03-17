@@ -11,6 +11,7 @@ const productsSchema = new Schema<IProduct>(
     description: { type: String, required: true },
     location: { type: String, required: true },
     totalViews: { type: Number, default: 0 },
+
     condition: {
       type: String,
       enum: ['good', 'well'],
@@ -18,7 +19,13 @@ const productsSchema = new Schema<IProduct>(
     },  
     isDeleted: { type: Boolean, default: false },
     images: { type: [String], required: true },
+    status: {
+      type: String,
+      enum: ['available', 'sold'],
+      default: 'available',
+    },
   },
+  
   {
     timestamps: true,
   },

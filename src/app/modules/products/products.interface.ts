@@ -10,5 +10,6 @@ export interface IProduct {
   totalViews: number;
   condition: 'good' | 'well';
   images: string[];
+  status: 'available' | 'sold';
   isDeleted?: boolean;
 }

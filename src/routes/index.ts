@@ -3,6 +3,8 @@ import { UserRouter } from '../app/modules/user/user.route';
 import { AuthRouter } from '../app/modules/auth/auth.route';
 import { ProductRouter } from '../app/modules/products/products.route';
 import { CartRoute } from '../app/modules/cart/cart.route';
+import { MessageRouter } from '../app/modules/message/message.route';
+import { ChatRouter } from '../app/modules/chat/chat.route';
 
 const router = express.Router();
 const routes = [
@@ -21,6 +23,14 @@ const routes = [
   {
     path: '/cart',
     route: CartRoute,
+  },
+  {
+    path: '/messages',
+    route: MessageRouter,
+  },
+  {
+    path: '/chat',
+    route: ChatRouter,
   },
 ];
 

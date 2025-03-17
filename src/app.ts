@@ -5,8 +5,11 @@ import { Morgan } from './shared/morgen';
 import globalErrorHandler from './globalErrorHandler/globalErrorHandler';
 import { notFound } from './app/middleware/notFound';
 import { welcome } from './utils/welcome';
+import path from 'path';
 const app: Application = express();
 
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
 //morgan
 app.use(Morgan.successHandler);
 app.use(Morgan.errorHandler);

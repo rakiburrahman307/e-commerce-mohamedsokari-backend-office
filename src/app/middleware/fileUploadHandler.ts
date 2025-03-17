@@ -33,6 +33,9 @@ const fileUploadHandler = () => {
         case 'logo':
           uploadDir = path.join(baseUploadDir, 'logo');
           break;
+        case 'audio':
+          uploadDir = path.join(baseUploadDir, 'audio');
+          break;
         default:
           throw new AppError(StatusCodes.BAD_REQUEST, 'File is not supported');
       }
@@ -56,7 +59,6 @@ const fileUploadHandler = () => {
 
   //file filter
   const filterFilter = (req: Request, file: any, cb: FileFilterCallback) => {
-    console.log('file handler', file);
     if (
       file.fieldname === 'image' ||
       file.fieldname === 'logo' ||
@@ -80,15 +82,39 @@ const fileUploadHandler = () => {
           ),
         );
       }
+    } else if (file.fieldname === 'audio') {
+      if (
+        file.mimetype === 'audio/mpeg' ||
+        file.mimetype === 'audio/mp3' ||
+        file.mimetype === 'audio/wav' ||
+        file.mimetype === 'audio/ogg' ||
+        file.mimetype === 'audio/webm'
+      ) {
+        cb(null, true);
+      } else {
+        cb(
+          new AppError(
+            StatusCodes.BAD_REQUEST,
+            'Only .mp3, .wav, .ogg, .webm audio files are supported',
+          ),
+        );
+      }
     } else {
       cb(new AppError(StatusCodes.BAD_REQUEST, 'This file is not supported'));
     }
   };
 
-  const upload = multer({ storage: storage, fileFilter: filterFilter }).fields([
+  const upload = multer({
+    storage: storage,
+    limits: {
+      fileSize: 10 * 1024 * 1024,
+    },
+    fileFilter: filterFilter,
+  }).fields([
     { name: 'image', maxCount: 10 },
     { name: 'logo', maxCount: 1 },
     { name: 'banner', maxCount: 1 },
+    { name: 'audio', maxCount: 1 },
   ]);
   return upload;
 };
