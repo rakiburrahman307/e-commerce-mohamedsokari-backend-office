@@ -1,4 +1,0 @@
-Sat Mar 15 2025 13:6:17 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/products/create 400 - 343.117 ms
-Sat Mar 15 2025 13:14:11 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/products/create 400 - 336.836 ms
-Sat Mar 15 2025 13:15:14 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/products/create 400 - 336.257 ms
-Sat Mar 15 2025 13:15:44 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/products/create 400 - 331.748 ms

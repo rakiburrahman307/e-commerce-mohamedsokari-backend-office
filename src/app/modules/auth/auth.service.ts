@@ -21,8 +21,9 @@ import { createToken } from '../../../utils/createToken';
 
 //login
 const login = async (payload: ILoginData) => {
-  const { email, password } = payload;
-  const isExistUser = await User.findOne({ email }).select('+password');
+  const { emailOrPhone, password } = payload;
+  const query = emailOrPhone.includes('@') ? { email: emailOrPhone } : { contact: emailOrPhone }; 
+  const isExistUser = await User.findOne({ query }).select('+password');
   if (!isExistUser) {
     throw new AppError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
   }
@@ -43,7 +44,7 @@ const login = async (payload: ILoginData) => {
       oneTimeCode: otp,
       expireAt: new Date(Date.now() + 3 * 60000),
     };
-    await User.findOneAndUpdate({ email }, { $set: { authentication } });
+    await User.findOneAndUpdate({ query }, { $set: { authentication } });
 
     throw new AppError(
       StatusCodes.CONFLICT,
